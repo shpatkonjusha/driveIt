@@ -1,0 +1,247 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.book {
+    box-shadow: 10px 10px 15px teal;
+    padding: 15px 20px;
+    max-width: 1100px;
+    margin: 100px auto 0;
+    background: #C4C4C4;
+    border-radius: 30px;
+}
+
+.bookForm {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bookForm input[type=text],
+[type=date] {
+    box-shadow: 10px 10px 15px teal;
+    width: 200.545px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #FFF9F9;
+    border: none;
+}
+
+.bookForm input[type=button] {
+    box-shadow: 10px 10px 15px teal;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 26px;
+    background: #21408E;
+}
+
+input[type=date]::-webkit-datetime-edit-text,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.cars {
+    max-width: 80%;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left img {
+
+    width: 600px;
+    margin: auto 0;
+}
+
+.right h1 {
+    text-align: center;
+}
+
+.right img {
+    max-height: 80px;
+}
+
+.carhire,
+.carsales,
+.hiredriver {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carhire div,
+.carsales div,
+.hiredriver div {
+    margin-left: 30px;
+    max-width: 350px;
+}
+
+
+.cars .card {
+
+    text-align: center;
+    border-radius: 21px 21px 0px 0px;
+    width: 25%;
+    margin: 0 1%;
+    box-shadow: 10px 10px 15px teal;
+}
+
+.cardtitle {
+    position: relative;
+    top: 2px;
+}
+
+.cardtitle,
+.cardtitle h1 {
+
+    padding-top: 15px;
+    text-align: center;
+    color: #21408E;
+    margin: 0;
+    border-radius: 21px 21px 0px 0px;
+    background: #FAF5F8;
+    height: 150px;
+}
+
+.carimg {
+    z-index: 1;
+    position: relative;
+    top: 20px;
+    background-color: #CBC9C2;
+    display: flex;
+    align-items: end;
+    height: 250px;
+    padding-bottom: 20px;
+}
+
+.carimg img {
+    max-width: 330px;
+}
+
+.cardabout {
+    position: relative;
+    z-index: 2;
+    padding: 15px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 21px 21px 0px 0px;
+}
+
+.cardabout h4 {
+    text-align: left;
+    margin: 0;
+}
+
+.card .info,
+.km,
+.gear,
+.fuel {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.card .info img {
+    height: 30px;
+}
+
+.price {
+    text-align: center;
+    color: #21408E;
+    font-weight: 100;
+}
+
+
+
+.card input[type=button] {
+    color: white;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background: #21408E;
+    position: relative;
+    top: 20px;
+}
+
+input[type=button]:hover {
+    background-color: #24335a;
+    cursor: pointer;
+}
+
+.experience {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.experience h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.excards {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.excard {
+    margin: 0 3%;
+    display: block;
+    width: 33%;
+}
+
+.excards p {
+    font-size: 20px;
+}
+
+
+/* responsive */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .bookForm {
+        display: block;
+    }
+
+    .bookForm input {
+        margin: 10px;
+
+    }
+
+    
+    .excards {
+        display: block;
+        width: 100%;
+    }
+    .excard{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .cars {
+        display: block;
+    }
+
+    .left {
+        display: none;
+    }
+    .cars .card {
+        width: 100%;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .carimg img{
+        margin: auto;
+        align-items: center;
+    }
+}
