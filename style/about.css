@@ -85,7 +85,7 @@ h2 {
 }
 .service > div{
     max-width: 1600px;
-    height: 320px;
+    min-height: 320px;
     width: 300px;
     margin: 40px;
     padding: 20px;
