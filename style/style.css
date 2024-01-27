@@ -1,10 +1,10 @@
 
 @import url(../fonts/Roboto/Roboto-Medium.ttf);
-body {
+body{
     font-family: 'roboto', sans-serif;
     padding: 0;
     margin: 0 ;
-    background-color: rgb(242,242,242);
+    background-color: rgb(242,242,242)!important;
 }
 .header{
     margin: 45px auto;
@@ -35,10 +35,7 @@ body {
 
 }
 
-#login{
-    
-    margin-left: 60px;
-}
+
 .offcanvas-header{
     background-color: rgb(120, 120, 120)!important;
 }
@@ -54,7 +51,7 @@ body {
     padding: 50px 0;
     font-size: 25px;
     color: white;
-    background: #000000;;
+    background: rgb(26, 26, 26);
 }
 .fcards{
     padding: 50px 0;
@@ -129,16 +126,4 @@ body {
         display: flex;
         justify-content: center;
     }
-}
-#photo{
-    background-image: url(../images/road2.jpg);
-    padding: 280px 0 150px;
-}
-.title{
-   
-    
-    font-size: 70px;
-    margin: 15%;
-    margin-bottom: 7%;
-    
 }
