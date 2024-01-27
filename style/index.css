@@ -30,7 +30,6 @@
 }
 
 .book {
-    box-shadow: 10px 10px 15px teal;
     padding: 15px 20px;
     max-width: 1100px;
     margin: 100px auto 0;
@@ -45,7 +44,6 @@
 
 .bookForm input[type=text],
 [type=date] {
-    box-shadow: 10px 10px 15px teal;
     width: 200.545px;
     height: 40px;
     flex-shrink: 0;
@@ -55,7 +53,6 @@
 }
 
 .bookForm input[type=button] {
-    box-shadow: 10px 10px 15px teal;
     color: white;
     height: 40px;
     width: 100px;
@@ -77,9 +74,8 @@ input[type=date]::-webkit-datetime-edit-text,
 
     text-align: center;
     border-radius: 21px 21px 0px 0px;
-    width: 33%;
-    margin: 0 1%;
-    box-shadow: 10px 10px 15px teal;
+    max-width: 330px;
+    margin: 50px auto;
 }
 
 .services, .cars {
@@ -88,6 +84,7 @@ input[type=date]::-webkit-datetime-edit-text,
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -99,9 +96,9 @@ input[type=date]::-webkit-datetime-edit-text,
 
     text-align: center;
     border-radius: 21px 21px 0px 0px;
-    width: 25%;
-    margin: 0 1%;
-    box-shadow: 10px 10px 15px teal;
+    width: 330px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.203);
 }
 
 .cars .cardtitle {
@@ -114,7 +111,7 @@ input[type=date]::-webkit-datetime-edit-text,
 
     padding-top: 15px;
     text-align: center;
-    color: #21408E;
+    color: black;
     margin: 0;
     border-radius: 21px 21px 0px 0px;
     background: #FAF5F8;
@@ -165,7 +162,7 @@ input[type=date]::-webkit-datetime-edit-text,
 
 .price {
     text-align: center;
-    color: #21408E;
+    color: black;
     font-weight: 100;
 }
 
@@ -177,7 +174,7 @@ input[type=date]::-webkit-datetime-edit-text,
     width: 200px;
     border: none;
     border-radius: 10px;
-    background: #21408E;
+    background: green;
     position: relative;
     top: 20px;
 }
@@ -239,31 +236,4 @@ input[type=button]:hover {
     }
 }
 
-@media only screen and (max-width: 992px) {
-    .services{
-        display: block;
-    }
-    .services  .card{
-        display: block;
-        width: 100%;
-        margin: 100px auto;
-    }
-    .cars {
-        display: block;
-        
-    }
 
-
-    .left {
-        display: none;
-    }
-    .cars .card {
-        width: 100%;
-        margin: 30px 0;
-        text-align: center;
-    }
-    .carimg img{
-        margin: auto;
-        align-items: center;
-    }
-}
