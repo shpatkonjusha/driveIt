@@ -64,12 +64,12 @@ h2 {
 
 h2.active {
   color: #0d0d0d;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid orange;
 }
 
 
 input[type=button], input[type=submit], input[type=reset]  {
-  background-color: #56baed;
+  background-color: orange;
   border: none;
   color: white;
   padding: 15px 80px;
@@ -101,13 +101,13 @@ input[type=text],input[type=email] ,input[type=password]{
   font-size: 16px;
   margin: 5px;
   width: 85%;
-  border: 2px solid #f6f6f6;
+  border: 2px solid orange;
   border-radius: 5px 5px 5px 5px;
 }
 
 input[type=text]:focus {
   background-color: #fff;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid orange;
 }
 
 input[type=text]:placeholder {

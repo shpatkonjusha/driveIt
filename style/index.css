@@ -114,7 +114,7 @@ input[type=date]::-webkit-datetime-edit-text,
     color: black;
     margin: 0;
     border-radius: 21px 21px 0px 0px;
-    background: #FAF5F8;
+    background: white;
     height: 150px;
 }
 
