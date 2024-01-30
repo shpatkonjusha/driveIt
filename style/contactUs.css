@@ -1,0 +1,152 @@
+
+
+.banner {
+    font-family: serif;
+    color: white;
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+
+.banner h1{
+    box-shadow: black 10px 10px 30px;
+    font-size: 70px;
+    margin-right: 15%;
+    margin-bottom: 7%;
+}
+
+
+.article {
+    background:url(../images/rent-a-car.jpg) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+form:hover {
+    transform: scale(1.02);
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+        padding: 20px;
+}
+.address{
+    display: inline-block;
+    max-width: 1600px;
+    min-height: 320px;
+    width: 300px;
+    margin-left: 200px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px teal;
+    text-align: center;
+    background-color: white;
+
+    
+}
+.services .card {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 21px 21px 0px 0px;
+    max-width: 330px;
+    margin: 50px auto;
+    display: inline-flex;
+    margin-left: 70px ;
+    
+}
+
+
+
+.services img{
+    width: 100%;
+}
+
+.cars .card {
+
+    text-align: center;
+    border-radius: 21px 21px 0px 0px;
+    width: 330px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.203);
+}
+
+.cars .cardtitle {
+    position: relative;
+    top: 2px;
+}
+
+.location{
+    text-align: center;
+    font-family: "Krona One",Helvetica,Arial,sans-serif;
+    margin-top: 50px;
+}
+.addresstittle{
+    text-align: center;
+    font-family: "Krona One",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(71, 70, 70);
+}
+
+#bgphoto{
+    display: inline-block;
+    height: 1000px;
+    width: auto;
+}
+
+
+
